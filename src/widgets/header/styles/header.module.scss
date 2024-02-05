@@ -1,0 +1,43 @@
+.header {
+  max-width: 403px;
+  width: 100%;
+  border: 1px solid #b049e1;
+  border-radius: 25px;
+  padding: 0 11px;
+  margin: 17px auto 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo_text {
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b049e1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bg_black {
+  background-color: rgb(255, 255, 255);
+}
+
+.icon {
+  width: 50%;
+  height: 50%;
+}
